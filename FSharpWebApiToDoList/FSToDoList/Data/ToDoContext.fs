@@ -24,8 +24,8 @@ module DataContext =
         let tdItems : ToDoItem[] = 
             [|
                 { Id = 0; Name = "GBPUSD"; Value = 1.2988 }
-                { Id = 0; Name = "GBPBRL"; Value = 1.2988 }
-                { Id = 0; Name = "GBPNIS"; Value = 1.2988 }
+                { Id = 0; Name = "GBPBRL"; Value = 3.7398 }
+                { Id = 0; Name = "GBPNIS"; Value = 1.1843 }
            |]
 
 
