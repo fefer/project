@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/FSToDoList.fsproj": {}
+  },
+  "projects": {
+    "/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/FSToDoList.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/FSToDoList.fsproj",
+        "projectName": "FSToDoList",
+        "projectPath": "/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/FSToDoList.fsproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

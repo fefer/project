@@ -1,0 +1,10 @@
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/bin/Debug/netcoreapp2.2/FSToDoList.deps.json
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/bin/Debug/netcoreapp2.2/FSToDoList.runtimeconfig.json
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/bin/Debug/netcoreapp2.2/FSToDoList.runtimeconfig.dev.json
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/bin/Debug/netcoreapp2.2/FSToDoList.dll
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/bin/Debug/netcoreapp2.2/FSToDoList.pdb
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/Debug/netcoreapp2.2/FSToDoList.fsprojAssemblyReference.cache
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/Debug/netcoreapp2.2/FSToDoList.AssemblyInfoInputs.cache
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/Debug/netcoreapp2.2/FSToDoList.AssemblyInfo.fs
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/Debug/netcoreapp2.2/FSToDoList.dll
+/home/daniellazkanifeferman/FSharpWebApiToDoList/FSToDoList/obj/Debug/netcoreapp2.2/FSToDoList.pdb
