@@ -22,7 +22,7 @@ type Startup private () =
     member this.ConfigureServices(services: IServiceCollection) =
         // services to be added to the framework
         services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2) |> ignore
-        //services.AddDbContext<ToDoContext>(fun options -> options.UseInMemoryDatabase("DB_ToDo") |> ignore) |> ignore
+
         services.AddEntityFrameworkNpgsql().AddDbContext<ToDoContext>(fun x -> x.UseNpgsql( this.Configuration.GetConnectionString("DB_ToDo") )|> ignore) |> ignore
 
     // configure the HTTP request pipeline.
