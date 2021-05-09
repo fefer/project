@@ -1,39 +1,44 @@
-# project
-Brick abode project
+# Brick abode project
 
-To run:
+Connect psql with F# app
 
+- Start dotnet:
+
+```
 cd ./FSharpWebApiToDoList/FSToDoList
 dotnet run
+```
 
-Using CURL
+### Using CURL
 
-List all:
+- List all:
+
+```
 curl http://localhost:5000/api/todoitems
+```
 
-Remove:
-
-Removes the id 1:
+- Removes the id 1:
+```
 curl -X DELETE -v http://localhost:5000/api/todoitems/1
+```
 
-Using Postman
+### Using Postman
 
-Insert (Id : 0, Name : "EURUSD", Value : 1.4):
+- Using post, insert (Id : 0, Name : "EURUSD", Value : 1.4):
 
+```
 URL: http://localhost:5000/api/todoitems/
-
 Key: Content-Type
-
 Value: application/json
-
 Body: { Id : 0, Name : "EURUSD", Value : 1.4 }
+```
 
 
-Search id 4 with name "EURUSD":
+- Using post search id 4 with name "EURUSD":
+
+```
 URL: http://localhost:5000/api/ToDoItems/search
-
 Key: Content-Type
-
 Value: application/json
-
-Body (ex): [{ Id : 4, Name : "EURUSD"}]
+Body: [{ Id : 4, Name : "EURUSD"}]
+```
